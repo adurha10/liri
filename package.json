@@ -1,0 +1,24 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adurha10/liri.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adurha10/liri/issues"
+  },
+  "homepage": "https://github.com/adurha10/liri#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.6",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
+}
