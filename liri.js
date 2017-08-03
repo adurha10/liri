@@ -75,7 +75,7 @@ Inquirer.prompt([
             var queryURL = `http://www.omdbapi.com/?apikey=40e9cece&t=${resp.movieTitle}`;
             request(queryURL, function (err, response, body) {
                 var film = JSON.parse(body);
-                if (!error){
+                if (!err){
                     log.info(`OMDB successfully searched for ${resp.movieTitle}`)
                     log.info(`queryURL: ${queryURL}`);
                     console.log(`Title: ${film.Title}`);
